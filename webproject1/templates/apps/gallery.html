@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends 'apps/index.html' %}
+{% load static %}
+{%block body_block %}
+<html>
+<link rel="stylesheet" href="{%static "css/style.css" %}">
+<head>
+	<h1 style="color: red;font-size: xx-large;font-family: arial">hi everyone</h1>
+</head>
+<body>
+	<img src="{static "/images/python.jpg" %}">
+	<img src="{static "/images/Django.png" %}">
+</body>
+{% endblock %}
+</html>
